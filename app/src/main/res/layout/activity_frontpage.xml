@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nordicsemi.nrfUARTv2.Frontpage">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone number"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:id="@+id/phn1"
+        android:inputType="phone" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second phone number"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:id="@+id/phn2"
+        android:inputType="phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter third phone number"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:id="@+id/phn3"
+        android:inputType="phone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/subbtn"
+        android:text="Submit"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
